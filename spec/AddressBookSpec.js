@@ -1,6 +1,6 @@
 describe('Address Book', () => {
   it('should be able to add a contact', () => {
-    const addressBook = new addressBook();
+    const addressBook = new AddressBook();
     const newContact = new Contact();
 
     addressBook.addContact(newContact);
